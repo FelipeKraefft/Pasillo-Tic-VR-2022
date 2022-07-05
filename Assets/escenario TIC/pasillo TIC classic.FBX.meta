@@ -1,0 +1,2569 @@
+fileFormatVersion: 2
+guid: 3d026899486336f4ea8f0f2e40c77b36
+timeCreated: 1463406697
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: "aula (pizarr\xF3n)"
+    100002: aula(cartelera)
+    100004: aula(exterior)
+    100006: aula(mapa)
+    100008: aula(paredes)
+    100010: aula(piso)
+    100012: aula(techo)
+    100014: aula(ventanas)
+    100016: banco
+    100018: banco01
+    100020: banco02
+    100022: banco03
+    100024: CANIOMATAFUEGO
+    100026: cartel04
+    100028: cartel05
+    100030: cartel1
+    100032: cartel2
+    100034: cartel3
+    100036: columnita
+    100038: columnita01
+    100040: columnita02
+    100042: corrediza
+    100044: L1 pared pasdillo
+    100046: l1(paredes)
+    100048: l1(piso+objetos)
+    100050: l1(techo)
+    100052: l2(columna)
+    100054: l2(paredes)
+    100056: l2(piso+objetos)
+    100058: l2(techo)
+    100060: l3(columna)
+    100062: l3(paredes)
+    100064: l3(piso+objetos)
+    100066: l3(techo)
+    100068: loker
+    100070: madera puerta vidrio l
+    100072: madera puerta vidrio r
+    100074: manguera
+    100076: manguera01
+    100078: manguera02
+    100080: manguera03
+    100082: matafuego
+    100084: matafuego01
+    100086: matafuego03
+    100088: mesa
+    100090: mesa100
+    100092: mesa101
+    100094: mesa102
+    100096: mesa103
+    100098: mesa104
+    100100: mesa105
+    100102: mesa106
+    100104: mesa107
+    100106: mesa108
+    100108: mesa109
+    100110: mesa110
+    100112: mesa111
+    100114: mesa112
+    100116: mesa113
+    100118: mesa114
+    100120: mesa115
+    100122: mesa116
+    100124: mesa117
+    100126: mesa118
+    100128: mesa119
+    100130: mesa120
+    100132: mesa121
+    100134: mesa122
+    100136: mesa123
+    100138: mesa124
+    100140: mesa125
+    100142: mesa126
+    100144: mesa127
+    100146: mesa128
+    100148: mesa129
+    100150: mesa59
+    100152: mesa60
+    100154: mesa61
+    100156: mesa62
+    100158: mesa63
+    100160: mesa64
+    100162: mesa65
+    100164: mesa66
+    100166: mesa67
+    100168: mesa68
+    100170: mesa69
+    100172: mesa70
+    100174: mesa71
+    100176: mesa72
+    100178: mesa73
+    100180: mesa74
+    100182: mesa75
+    100184: mesa76
+    100186: mesa77
+    100188: mesa78
+    100190: mesa79
+    100192: mesa80
+    100194: mesa81
+    100196: mesa82
+    100198: mesa83
+    100200: mesa84
+    100202: mesa85
+    100204: mesa86
+    100206: mesa87
+    100208: mesa88
+    100210: mesa89
+    100212: mesa90
+    100214: mesa91
+    100216: mesa92
+    100218: mesa93
+    100220: mesa94
+    100222: mesa95
+    100224: mesa96
+    100226: mesa97
+    100228: mesa98
+    100230: mesa99
+    100232: monitor100
+    100234: monitor101
+    100236: monitor102
+    100238: monitor103
+    100240: monitor104
+    100242: monitor105
+    100244: monitor106
+    100246: monitor107
+    100248: monitor108
+    100250: monitor109
+    100252: monitor110
+    100254: monitor111
+    100256: monitor112
+    100258: monitor113
+    100260: monitor114
+    100262: monitor55
+    100264: monitor61
+    100266: monitor62
+    100268: monitor63
+    100270: monitor64
+    100272: monitor65
+    100274: monitor66
+    100276: monitor67
+    100278: monitor68
+    100280: monitor69
+    100282: monitor70
+    100284: monitor71
+    100286: monitor72
+    100288: monitor73
+    100290: monitor74
+    100292: monitor75
+    100294: monitor77
+    100296: monitor78
+    100298: monitor79
+    100300: monitor80
+    100302: monitor81
+    100304: monitor82
+    100306: monitor83
+    100308: monitor84
+    100310: monitor85
+    100312: monitor86
+    100314: monitor87
+    100316: monitor88
+    100318: monitor89
+    100320: monitor90
+    100322: monitor91
+    100324: monitor92
+    100326: monitor93
+    100328: monitor94
+    100330: monitor95
+    100332: monitor96
+    100334: monitor97
+    100336: monitor98
+    100338: monitor99
+    100340: Object01
+    100342: Object02
+    100344: Object03
+    100346: Object05
+    100348: Object06
+    100350: Object11
+    100352: Object12
+    100354: Object13
+    100356: Object14
+    100358: paredes
+    100360: //RootNode
+    100362: PC06
+    100364: PC07
+    100366: PC08
+    100368: PC09
+    100370: PC10
+    100372: PC11
+    100374: PC12
+    100376: PC13
+    100378: PC14
+    100380: PC15
+    100382: PC16
+    100384: PC17
+    100386: PC18
+    100388: PC19
+    100390: PC20
+    100392: PC21
+    100394: PC22
+    100396: PC23
+    100398: PC24
+    100400: PC25
+    100402: PC26
+    100404: PC27
+    100406: PC28
+    100408: PC29
+    100410: PC30
+    100412: PC31
+    100414: PC32
+    100416: PC33
+    100418: PC34
+    100420: PC35
+    100422: PC36
+    100424: PC37
+    100426: PC38
+    100428: PC40
+    100430: PC41
+    100432: PC42
+    100434: PC43
+    100436: PC44
+    100438: PC45
+    100440: PC46
+    100442: PC47
+    100444: PC48
+    100446: PC49
+    100448: PC50
+    100450: PC51
+    100452: PC52
+    100454: PC53
+    100456: PC54
+    100458: PC55
+    100460: PC56
+    100462: PC57
+    100464: PC58
+    100466: PC60
+    100468: PC62
+    100470: Piso
+    100472: Plane01
+    100474: Plane02
+    100476: Plane03
+    100478: Plane04
+    100480: Plane05
+    100482: Plane06
+    100484: Plane07
+    100486: Plane08
+    100488: puerta L1L2
+    100490: Puerta01
+    100492: Puerta02
+    100494: Puerta03
+    100496: Puerta04
+    100498: Puerta05
+    100500: Puerta06
+    100502: Puerta07
+    100504: Puerta08
+    100506: Puerta09
+    100508: Puerta10
+    100510: Puerta11
+    100512: Puerta15
+    100514: Puerta16
+    100516: puertal1
+    100518: rack L1
+    100520: respaldo06
+    100522: respaldo07
+    100524: respaldo08
+    100526: respaldo09
+    100528: respaldo10
+    100530: respaldo11
+    100532: respaldo12
+    100534: respaldo13
+    100536: respaldo14
+    100538: respaldo15
+    100540: respaldo16
+    100542: respaldo17
+    100544: respaldo18
+    100546: respaldo19
+    100548: respaldo20
+    100550: respaldo21
+    100552: respaldo22
+    100554: respaldo23
+    100556: respaldo24
+    100558: respaldo25
+    100560: respaldo26
+    100562: respaldo27
+    100564: respaldo28
+    100566: respaldo29
+    100568: respaldo30
+    100570: respaldo31
+    100572: respaldo32
+    100574: respaldo33
+    100576: respaldo34
+    100578: respaldo35
+    100580: respaldo36
+    100582: respaldo37
+    100584: respaldo39
+    100586: respaldo40
+    100588: respaldo41
+    100590: respaldo42
+    100592: respaldo43
+    100594: respaldo44
+    100596: respaldo45
+    100598: respaldo46
+    100600: respaldo47
+    100602: respaldo48
+    100604: respaldo49
+    100606: respaldo50
+    100608: respaldo51
+    100610: respaldo52
+    100612: respaldo53
+    100614: respaldo54
+    100616: respaldo55
+    100618: respaldo56
+    100620: respaldo57
+    100622: respaldo58
+    100624: respaldo59
+    100626: respaldo60
+    100628: respaldo61
+    100630: respaldo62
+    100632: respaldo63
+    100634: "silla ca\xF1o"
+    100636: "silla ca\xF1o01"
+    100638: "silla ca\xF1o02"
+    100640: "silla ca\xF1o03"
+    100642: "silla ca\xF1o04"
+    100644: "silla ca\xF1o05"
+    100646: "silla ca\xF1o06"
+    100648: "silla ca\xF1o07"
+    100650: "silla ca\xF1o08"
+    100652: "silla ca\xF1o09"
+    100654: "silla ca\xF1o10"
+    100656: "silla ca\xF1o11"
+    100658: "silla ca\xF1o12"
+    100660: "silla ca\xF1o13"
+    100662: "silla ca\xF1o14"
+    100664: "silla ca\xF1o15"
+    100666: "silla ca\xF1o16"
+    100668: "silla ca\xF1o17"
+    100670: "silla ca\xF1o18"
+    100672: "silla ca\xF1o19"
+    100674: "silla ca\xF1o20"
+    100676: "silla ca\xF1o21"
+    100678: "silla ca\xF1o22"
+    100680: "silla ca\xF1o23"
+    100682: "silla ca\xF1o24"
+    100684: SILLALAB
+    100686: TECHO
+    100688: TECLADO06
+    100690: TECLADO07
+    100692: TECLADO08
+    100694: TECLADO09
+    100696: TECLADO10
+    100698: TECLADO11
+    100700: TECLADO12
+    100702: TECLADO13
+    100704: TECLADO14
+    100706: TECLADO15
+    100708: TECLADO16
+    100710: TECLADO17
+    100712: TECLADO18
+    100714: TECLADO19
+    100716: TECLADO20
+    100718: TECLADO21
+    100720: TECLADO22
+    100722: TECLADO23
+    100724: TECLADO24
+    100726: TECLADO25
+    100728: TECLADO26
+    100730: TECLADO27
+    100732: TECLADO28
+    100734: TECLADO29
+    100736: TECLADO30
+    100738: TECLADO31
+    100740: TECLADO32
+    100742: TECLADO33
+    100744: TECLADO34
+    100746: TECLADO35
+    100748: TECLADO36
+    100750: TECLADO37
+    100752: TECLADO38
+    100754: TECLADO40
+    100756: TECLADO41
+    100758: TECLADO42
+    100760: TECLADO43
+    100762: TECLADO44
+    100764: TECLADO45
+    100766: TECLADO46
+    100768: TECLADO47
+    100770: TECLADO48
+    100772: TECLADO49
+    100774: TECLADO50
+    100776: TECLADO51
+    100778: TECLADO52
+    100780: TECLADO53
+    100782: TECLADO54
+    100784: TECLADO55
+    100786: TECLADO57
+    100788: TECLADO59
+    100790: TECLADO60
+    100792: TECLADO61
+    100794: TECLADO62
+    100796: Asistencia 2do
+    100798: cartel fumar
+    100800: Cartelera01
+    100802: L1 matrix
+    100804: l1 piso
+    100806: L2 Piso
+    100808: L2 Ventanas
+    100810: pared aula puerta
+    100812: Pas Logo tic
+    100814: 'pas tecnologia de '
+    100816: pas y comunicacion
+    100818: PISO PASILLO
+    100820: Piso Pasillo
+    100822: puertaa
+    100824: ventana l2
+    100826: ventanas L1
+    100828: ventanas L3
+    100830: Labos Piso
+    100832: Labos Pisozz
+    100834: cristales ventana L3
+    100836: nueva puerta ventana L3
+    400000: "aula (pizarr\xF3n)"
+    400002: aula(cartelera)
+    400004: aula(exterior)
+    400006: aula(mapa)
+    400008: aula(paredes)
+    400010: aula(piso)
+    400012: aula(techo)
+    400014: aula(ventanas)
+    400016: banco
+    400018: banco01
+    400020: banco02
+    400022: banco03
+    400024: CANIOMATAFUEGO
+    400026: cartel04
+    400028: cartel05
+    400030: cartel1
+    400032: cartel2
+    400034: cartel3
+    400036: columnita
+    400038: columnita01
+    400040: columnita02
+    400042: corrediza
+    400044: L1 pared pasdillo
+    400046: l1(paredes)
+    400048: l1(piso+objetos)
+    400050: l1(techo)
+    400052: l2(columna)
+    400054: l2(paredes)
+    400056: l2(piso+objetos)
+    400058: l2(techo)
+    400060: l3(columna)
+    400062: l3(paredes)
+    400064: l3(piso+objetos)
+    400066: l3(techo)
+    400068: loker
+    400070: madera puerta vidrio l
+    400072: madera puerta vidrio r
+    400074: manguera
+    400076: manguera01
+    400078: manguera02
+    400080: manguera03
+    400082: matafuego
+    400084: matafuego01
+    400086: matafuego03
+    400088: mesa
+    400090: mesa100
+    400092: mesa101
+    400094: mesa102
+    400096: mesa103
+    400098: mesa104
+    400100: mesa105
+    400102: mesa106
+    400104: mesa107
+    400106: mesa108
+    400108: mesa109
+    400110: mesa110
+    400112: mesa111
+    400114: mesa112
+    400116: mesa113
+    400118: mesa114
+    400120: mesa115
+    400122: mesa116
+    400124: mesa117
+    400126: mesa118
+    400128: mesa119
+    400130: mesa120
+    400132: mesa121
+    400134: mesa122
+    400136: mesa123
+    400138: mesa124
+    400140: mesa125
+    400142: mesa126
+    400144: mesa127
+    400146: mesa128
+    400148: mesa129
+    400150: mesa59
+    400152: mesa60
+    400154: mesa61
+    400156: mesa62
+    400158: mesa63
+    400160: mesa64
+    400162: mesa65
+    400164: mesa66
+    400166: mesa67
+    400168: mesa68
+    400170: mesa69
+    400172: mesa70
+    400174: mesa71
+    400176: mesa72
+    400178: mesa73
+    400180: mesa74
+    400182: mesa75
+    400184: mesa76
+    400186: mesa77
+    400188: mesa78
+    400190: mesa79
+    400192: mesa80
+    400194: mesa81
+    400196: mesa82
+    400198: mesa83
+    400200: mesa84
+    400202: mesa85
+    400204: mesa86
+    400206: mesa87
+    400208: mesa88
+    400210: mesa89
+    400212: mesa90
+    400214: mesa91
+    400216: mesa92
+    400218: mesa93
+    400220: mesa94
+    400222: mesa95
+    400224: mesa96
+    400226: mesa97
+    400228: mesa98
+    400230: mesa99
+    400232: monitor100
+    400234: monitor101
+    400236: monitor102
+    400238: monitor103
+    400240: monitor104
+    400242: monitor105
+    400244: monitor106
+    400246: monitor107
+    400248: monitor108
+    400250: monitor109
+    400252: monitor110
+    400254: monitor111
+    400256: monitor112
+    400258: monitor113
+    400260: monitor114
+    400262: monitor55
+    400264: monitor61
+    400266: monitor62
+    400268: monitor63
+    400270: monitor64
+    400272: monitor65
+    400274: monitor66
+    400276: monitor67
+    400278: monitor68
+    400280: monitor69
+    400282: monitor70
+    400284: monitor71
+    400286: monitor72
+    400288: monitor73
+    400290: monitor74
+    400292: monitor75
+    400294: monitor77
+    400296: monitor78
+    400298: monitor79
+    400300: monitor80
+    400302: monitor81
+    400304: monitor82
+    400306: monitor83
+    400308: monitor84
+    400310: monitor85
+    400312: monitor86
+    400314: monitor87
+    400316: monitor88
+    400318: monitor89
+    400320: monitor90
+    400322: monitor91
+    400324: monitor92
+    400326: monitor93
+    400328: monitor94
+    400330: monitor95
+    400332: monitor96
+    400334: monitor97
+    400336: monitor98
+    400338: monitor99
+    400340: Object01
+    400342: Object02
+    400344: Object03
+    400346: Object05
+    400348: Object06
+    400350: Object11
+    400352: Object12
+    400354: Object13
+    400356: Object14
+    400358: paredes
+    400360: //RootNode
+    400362: PC06
+    400364: PC07
+    400366: PC08
+    400368: PC09
+    400370: PC10
+    400372: PC11
+    400374: PC12
+    400376: PC13
+    400378: PC14
+    400380: PC15
+    400382: PC16
+    400384: PC17
+    400386: PC18
+    400388: PC19
+    400390: PC20
+    400392: PC21
+    400394: PC22
+    400396: PC23
+    400398: PC24
+    400400: PC25
+    400402: PC26
+    400404: PC27
+    400406: PC28
+    400408: PC29
+    400410: PC30
+    400412: PC31
+    400414: PC32
+    400416: PC33
+    400418: PC34
+    400420: PC35
+    400422: PC36
+    400424: PC37
+    400426: PC38
+    400428: PC40
+    400430: PC41
+    400432: PC42
+    400434: PC43
+    400436: PC44
+    400438: PC45
+    400440: PC46
+    400442: PC47
+    400444: PC48
+    400446: PC49
+    400448: PC50
+    400450: PC51
+    400452: PC52
+    400454: PC53
+    400456: PC54
+    400458: PC55
+    400460: PC56
+    400462: PC57
+    400464: PC58
+    400466: PC60
+    400468: PC62
+    400470: Piso
+    400472: Plane01
+    400474: Plane02
+    400476: Plane03
+    400478: Plane04
+    400480: Plane05
+    400482: Plane06
+    400484: Plane07
+    400486: Plane08
+    400488: puerta L1L2
+    400490: Puerta01
+    400492: Puerta02
+    400494: Puerta03
+    400496: Puerta04
+    400498: Puerta05
+    400500: Puerta06
+    400502: Puerta07
+    400504: Puerta08
+    400506: Puerta09
+    400508: Puerta10
+    400510: Puerta11
+    400512: Puerta15
+    400514: Puerta16
+    400516: puertal1
+    400518: rack L1
+    400520: respaldo06
+    400522: respaldo07
+    400524: respaldo08
+    400526: respaldo09
+    400528: respaldo10
+    400530: respaldo11
+    400532: respaldo12
+    400534: respaldo13
+    400536: respaldo14
+    400538: respaldo15
+    400540: respaldo16
+    400542: respaldo17
+    400544: respaldo18
+    400546: respaldo19
+    400548: respaldo20
+    400550: respaldo21
+    400552: respaldo22
+    400554: respaldo23
+    400556: respaldo24
+    400558: respaldo25
+    400560: respaldo26
+    400562: respaldo27
+    400564: respaldo28
+    400566: respaldo29
+    400568: respaldo30
+    400570: respaldo31
+    400572: respaldo32
+    400574: respaldo33
+    400576: respaldo34
+    400578: respaldo35
+    400580: respaldo36
+    400582: respaldo37
+    400584: respaldo39
+    400586: respaldo40
+    400588: respaldo41
+    400590: respaldo42
+    400592: respaldo43
+    400594: respaldo44
+    400596: respaldo45
+    400598: respaldo46
+    400600: respaldo47
+    400602: respaldo48
+    400604: respaldo49
+    400606: respaldo50
+    400608: respaldo51
+    400610: respaldo52
+    400612: respaldo53
+    400614: respaldo54
+    400616: respaldo55
+    400618: respaldo56
+    400620: respaldo57
+    400622: respaldo58
+    400624: respaldo59
+    400626: respaldo60
+    400628: respaldo61
+    400630: respaldo62
+    400632: respaldo63
+    400634: "silla ca\xF1o"
+    400636: "silla ca\xF1o01"
+    400638: "silla ca\xF1o02"
+    400640: "silla ca\xF1o03"
+    400642: "silla ca\xF1o04"
+    400644: "silla ca\xF1o05"
+    400646: "silla ca\xF1o06"
+    400648: "silla ca\xF1o07"
+    400650: "silla ca\xF1o08"
+    400652: "silla ca\xF1o09"
+    400654: "silla ca\xF1o10"
+    400656: "silla ca\xF1o11"
+    400658: "silla ca\xF1o12"
+    400660: "silla ca\xF1o13"
+    400662: "silla ca\xF1o14"
+    400664: "silla ca\xF1o15"
+    400666: "silla ca\xF1o16"
+    400668: "silla ca\xF1o17"
+    400670: "silla ca\xF1o18"
+    400672: "silla ca\xF1o19"
+    400674: "silla ca\xF1o20"
+    400676: "silla ca\xF1o21"
+    400678: "silla ca\xF1o22"
+    400680: "silla ca\xF1o23"
+    400682: "silla ca\xF1o24"
+    400684: SILLALAB
+    400686: TECHO
+    400688: TECLADO06
+    400690: TECLADO07
+    400692: TECLADO08
+    400694: TECLADO09
+    400696: TECLADO10
+    400698: TECLADO11
+    400700: TECLADO12
+    400702: TECLADO13
+    400704: TECLADO14
+    400706: TECLADO15
+    400708: TECLADO16
+    400710: TECLADO17
+    400712: TECLADO18
+    400714: TECLADO19
+    400716: TECLADO20
+    400718: TECLADO21
+    400720: TECLADO22
+    400722: TECLADO23
+    400724: TECLADO24
+    400726: TECLADO25
+    400728: TECLADO26
+    400730: TECLADO27
+    400732: TECLADO28
+    400734: TECLADO29
+    400736: TECLADO30
+    400738: TECLADO31
+    400740: TECLADO32
+    400742: TECLADO33
+    400744: TECLADO34
+    400746: TECLADO35
+    400748: TECLADO36
+    400750: TECLADO37
+    400752: TECLADO38
+    400754: TECLADO40
+    400756: TECLADO41
+    400758: TECLADO42
+    400760: TECLADO43
+    400762: TECLADO44
+    400764: TECLADO45
+    400766: TECLADO46
+    400768: TECLADO47
+    400770: TECLADO48
+    400772: TECLADO49
+    400774: TECLADO50
+    400776: TECLADO51
+    400778: TECLADO52
+    400780: TECLADO53
+    400782: TECLADO54
+    400784: TECLADO55
+    400786: TECLADO57
+    400788: TECLADO59
+    400790: TECLADO60
+    400792: TECLADO61
+    400794: TECLADO62
+    400796: Asistencia 2do
+    400798: cartel fumar
+    400800: Cartelera01
+    400802: L1 matrix
+    400804: l1 piso
+    400806: L2 Piso
+    400808: L2 Ventanas
+    400810: pared aula puerta
+    400812: Pas Logo tic
+    400814: 'pas tecnologia de '
+    400816: pas y comunicacion
+    400818: PISO PASILLO
+    400820: Piso Pasillo
+    400822: puertaa
+    400824: ventana l2
+    400826: ventanas L1
+    400828: ventanas L3
+    400830: Labos Piso
+    400832: Labos Pisozz
+    400834: cristales ventana L3
+    400836: nueva puerta ventana L3
+    2300000: "aula (pizarr\xF3n)"
+    2300002: aula(cartelera)
+    2300004: aula(exterior)
+    2300006: aula(mapa)
+    2300008: aula(paredes)
+    2300010: aula(piso)
+    2300012: aula(techo)
+    2300014: aula(ventanas)
+    2300016: banco
+    2300018: banco01
+    2300020: banco02
+    2300022: banco03
+    2300024: CANIOMATAFUEGO
+    2300026: cartel04
+    2300028: cartel05
+    2300030: cartel1
+    2300032: cartel2
+    2300034: cartel3
+    2300036: columnita
+    2300038: columnita01
+    2300040: columnita02
+    2300042: corrediza
+    2300044: L1 pared pasdillo
+    2300046: l1(paredes)
+    2300048: l1(piso+objetos)
+    2300050: l1(techo)
+    2300052: l2(columna)
+    2300054: l2(paredes)
+    2300056: l2(piso+objetos)
+    2300058: l2(techo)
+    2300060: l3(columna)
+    2300062: l3(paredes)
+    2300064: l3(piso+objetos)
+    2300066: l3(techo)
+    2300068: loker
+    2300070: madera puerta vidrio l
+    2300072: madera puerta vidrio r
+    2300074: manguera
+    2300076: manguera01
+    2300078: manguera02
+    2300080: manguera03
+    2300082: matafuego
+    2300084: matafuego01
+    2300086: matafuego03
+    2300088: mesa
+    2300090: mesa100
+    2300092: mesa101
+    2300094: mesa102
+    2300096: mesa103
+    2300098: mesa104
+    2300100: mesa105
+    2300102: mesa106
+    2300104: mesa107
+    2300106: mesa108
+    2300108: mesa109
+    2300110: mesa110
+    2300112: mesa111
+    2300114: mesa112
+    2300116: mesa113
+    2300118: mesa114
+    2300120: mesa115
+    2300122: mesa116
+    2300124: mesa117
+    2300126: mesa118
+    2300128: mesa119
+    2300130: mesa120
+    2300132: mesa121
+    2300134: mesa122
+    2300136: mesa123
+    2300138: mesa124
+    2300140: mesa125
+    2300142: mesa126
+    2300144: mesa127
+    2300146: mesa128
+    2300148: mesa129
+    2300150: mesa59
+    2300152: mesa60
+    2300154: mesa61
+    2300156: mesa62
+    2300158: mesa63
+    2300160: mesa64
+    2300162: mesa65
+    2300164: mesa66
+    2300166: mesa67
+    2300168: mesa68
+    2300170: mesa69
+    2300172: mesa70
+    2300174: mesa71
+    2300176: mesa72
+    2300178: mesa73
+    2300180: mesa74
+    2300182: mesa75
+    2300184: mesa76
+    2300186: mesa77
+    2300188: mesa78
+    2300190: mesa79
+    2300192: mesa80
+    2300194: mesa81
+    2300196: mesa82
+    2300198: mesa83
+    2300200: mesa84
+    2300202: mesa85
+    2300204: mesa86
+    2300206: mesa87
+    2300208: mesa88
+    2300210: mesa89
+    2300212: mesa90
+    2300214: mesa91
+    2300216: mesa92
+    2300218: mesa93
+    2300220: mesa94
+    2300222: mesa95
+    2300224: mesa96
+    2300226: mesa97
+    2300228: mesa98
+    2300230: mesa99
+    2300232: monitor100
+    2300234: monitor101
+    2300236: monitor102
+    2300238: monitor103
+    2300240: monitor104
+    2300242: monitor105
+    2300244: monitor106
+    2300246: monitor107
+    2300248: monitor108
+    2300250: monitor109
+    2300252: monitor110
+    2300254: monitor111
+    2300256: monitor112
+    2300258: monitor113
+    2300260: monitor114
+    2300262: monitor55
+    2300264: monitor61
+    2300266: monitor62
+    2300268: monitor63
+    2300270: monitor64
+    2300272: monitor65
+    2300274: monitor66
+    2300276: monitor67
+    2300278: monitor68
+    2300280: monitor69
+    2300282: monitor70
+    2300284: monitor71
+    2300286: monitor72
+    2300288: monitor73
+    2300290: monitor74
+    2300292: monitor75
+    2300294: monitor77
+    2300296: monitor78
+    2300298: monitor79
+    2300300: monitor80
+    2300302: monitor81
+    2300304: monitor82
+    2300306: monitor83
+    2300308: monitor84
+    2300310: monitor85
+    2300312: monitor86
+    2300314: monitor87
+    2300316: monitor88
+    2300318: monitor89
+    2300320: monitor90
+    2300322: monitor91
+    2300324: monitor92
+    2300326: monitor93
+    2300328: monitor94
+    2300330: monitor95
+    2300332: monitor96
+    2300334: monitor97
+    2300336: monitor98
+    2300338: monitor99
+    2300340: Object02
+    2300342: Object03
+    2300344: Object05
+    2300346: Object11
+    2300348: Object13
+    2300350: Object14
+    2300352: paredes
+    2300354: PC06
+    2300356: PC07
+    2300358: PC08
+    2300360: PC09
+    2300362: PC10
+    2300364: PC11
+    2300366: PC12
+    2300368: PC13
+    2300370: PC14
+    2300372: PC15
+    2300374: PC16
+    2300376: PC17
+    2300378: PC18
+    2300380: PC19
+    2300382: PC20
+    2300384: PC21
+    2300386: PC22
+    2300388: PC23
+    2300390: PC24
+    2300392: PC25
+    2300394: PC26
+    2300396: PC27
+    2300398: PC28
+    2300400: PC29
+    2300402: PC30
+    2300404: PC31
+    2300406: PC32
+    2300408: PC33
+    2300410: PC34
+    2300412: PC35
+    2300414: PC36
+    2300416: PC37
+    2300418: PC38
+    2300420: PC40
+    2300422: PC41
+    2300424: PC42
+    2300426: PC43
+    2300428: PC44
+    2300430: PC45
+    2300432: PC46
+    2300434: PC47
+    2300436: PC48
+    2300438: PC49
+    2300440: PC50
+    2300442: PC51
+    2300444: PC52
+    2300446: PC53
+    2300448: PC54
+    2300450: PC55
+    2300452: PC56
+    2300454: PC57
+    2300456: PC58
+    2300458: PC60
+    2300460: PC62
+    2300462: Piso
+    2300464: Plane01
+    2300466: Plane02
+    2300468: Plane03
+    2300470: Plane04
+    2300472: Plane05
+    2300474: Plane06
+    2300476: Plane07
+    2300478: Plane08
+    2300480: puerta L1L2
+    2300482: Puerta01
+    2300484: Puerta02
+    2300486: Puerta03
+    2300488: Puerta04
+    2300490: Puerta05
+    2300492: Puerta06
+    2300494: Puerta07
+    2300496: Puerta08
+    2300498: Puerta09
+    2300500: Puerta10
+    2300502: Puerta11
+    2300504: Puerta15
+    2300506: Puerta16
+    2300508: puertal1
+    2300510: rack L1
+    2300512: respaldo06
+    2300514: respaldo07
+    2300516: respaldo08
+    2300518: respaldo09
+    2300520: respaldo10
+    2300522: respaldo11
+    2300524: respaldo12
+    2300526: respaldo13
+    2300528: respaldo14
+    2300530: respaldo15
+    2300532: respaldo16
+    2300534: respaldo17
+    2300536: respaldo18
+    2300538: respaldo19
+    2300540: respaldo20
+    2300542: respaldo21
+    2300544: respaldo22
+    2300546: respaldo23
+    2300548: respaldo24
+    2300550: respaldo25
+    2300552: respaldo26
+    2300554: respaldo27
+    2300556: respaldo28
+    2300558: respaldo29
+    2300560: respaldo30
+    2300562: respaldo31
+    2300564: respaldo32
+    2300566: respaldo33
+    2300568: respaldo34
+    2300570: respaldo35
+    2300572: respaldo36
+    2300574: respaldo37
+    2300576: respaldo39
+    2300578: respaldo40
+    2300580: respaldo41
+    2300582: respaldo42
+    2300584: respaldo43
+    2300586: respaldo44
+    2300588: respaldo45
+    2300590: respaldo46
+    2300592: respaldo47
+    2300594: respaldo48
+    2300596: respaldo49
+    2300598: respaldo50
+    2300600: respaldo51
+    2300602: respaldo52
+    2300604: respaldo53
+    2300606: respaldo54
+    2300608: respaldo55
+    2300610: respaldo56
+    2300612: respaldo57
+    2300614: respaldo58
+    2300616: respaldo59
+    2300618: respaldo60
+    2300620: respaldo61
+    2300622: respaldo62
+    2300624: respaldo63
+    2300626: "silla ca\xF1o"
+    2300628: "silla ca\xF1o01"
+    2300630: "silla ca\xF1o02"
+    2300632: "silla ca\xF1o03"
+    2300634: "silla ca\xF1o04"
+    2300636: "silla ca\xF1o05"
+    2300638: "silla ca\xF1o06"
+    2300640: "silla ca\xF1o07"
+    2300642: "silla ca\xF1o08"
+    2300644: "silla ca\xF1o09"
+    2300646: "silla ca\xF1o10"
+    2300648: "silla ca\xF1o11"
+    2300650: "silla ca\xF1o12"
+    2300652: "silla ca\xF1o13"
+    2300654: "silla ca\xF1o14"
+    2300656: "silla ca\xF1o15"
+    2300658: "silla ca\xF1o16"
+    2300660: "silla ca\xF1o17"
+    2300662: "silla ca\xF1o18"
+    2300664: "silla ca\xF1o19"
+    2300666: "silla ca\xF1o20"
+    2300668: "silla ca\xF1o21"
+    2300670: "silla ca\xF1o22"
+    2300672: "silla ca\xF1o23"
+    2300674: "silla ca\xF1o24"
+    2300676: SILLALAB
+    2300678: TECHO
+    2300680: TECLADO06
+    2300682: TECLADO07
+    2300684: TECLADO08
+    2300686: TECLADO09
+    2300688: TECLADO10
+    2300690: TECLADO11
+    2300692: TECLADO12
+    2300694: TECLADO13
+    2300696: TECLADO14
+    2300698: TECLADO15
+    2300700: TECLADO16
+    2300702: TECLADO17
+    2300704: TECLADO18
+    2300706: TECLADO19
+    2300708: TECLADO20
+    2300710: TECLADO21
+    2300712: TECLADO22
+    2300714: TECLADO23
+    2300716: TECLADO24
+    2300718: TECLADO25
+    2300720: TECLADO26
+    2300722: TECLADO27
+    2300724: TECLADO28
+    2300726: TECLADO29
+    2300728: TECLADO30
+    2300730: TECLADO31
+    2300732: TECLADO32
+    2300734: TECLADO33
+    2300736: TECLADO34
+    2300738: TECLADO35
+    2300740: TECLADO36
+    2300742: TECLADO37
+    2300744: TECLADO38
+    2300746: TECLADO40
+    2300748: TECLADO41
+    2300750: TECLADO42
+    2300752: TECLADO43
+    2300754: TECLADO44
+    2300756: TECLADO45
+    2300758: TECLADO46
+    2300760: TECLADO47
+    2300762: TECLADO48
+    2300764: TECLADO49
+    2300766: TECLADO50
+    2300768: TECLADO51
+    2300770: TECLADO52
+    2300772: TECLADO53
+    2300774: TECLADO54
+    2300776: TECLADO55
+    2300778: TECLADO57
+    2300780: TECLADO59
+    2300782: TECLADO60
+    2300784: TECLADO61
+    2300786: TECLADO62
+    2300788: Asistencia 2do
+    2300790: cartel fumar
+    2300792: Cartelera01
+    2300794: L1 matrix
+    2300796: l1 piso
+    2300798: L2 Piso
+    2300800: L2 Ventanas
+    2300802: pared aula puerta
+    2300804: Pas Logo tic
+    2300806: 'pas tecnologia de '
+    2300808: pas y comunicacion
+    2300810: PISO PASILLO
+    2300812: Piso Pasillo
+    2300814: puertaa
+    2300816: ventana l2
+    2300818: ventanas L1
+    2300820: ventanas L3
+    2300822: Labos Piso
+    2300824: Labos Pisozz
+    2300826: cristales ventana L3
+    2300828: nueva puerta ventana L3
+    3300000: "aula (pizarr\xF3n)"
+    3300002: aula(cartelera)
+    3300004: aula(exterior)
+    3300006: aula(mapa)
+    3300008: aula(paredes)
+    3300010: aula(piso)
+    3300012: aula(techo)
+    3300014: aula(ventanas)
+    3300016: banco
+    3300018: banco01
+    3300020: banco02
+    3300022: banco03
+    3300024: CANIOMATAFUEGO
+    3300026: cartel04
+    3300028: cartel05
+    3300030: cartel1
+    3300032: cartel2
+    3300034: cartel3
+    3300036: columnita
+    3300038: columnita01
+    3300040: columnita02
+    3300042: corrediza
+    3300044: L1 pared pasdillo
+    3300046: l1(paredes)
+    3300048: l1(piso+objetos)
+    3300050: l1(techo)
+    3300052: l2(columna)
+    3300054: l2(paredes)
+    3300056: l2(piso+objetos)
+    3300058: l2(techo)
+    3300060: l3(columna)
+    3300062: l3(paredes)
+    3300064: l3(piso+objetos)
+    3300066: l3(techo)
+    3300068: loker
+    3300070: madera puerta vidrio l
+    3300072: madera puerta vidrio r
+    3300074: manguera
+    3300076: manguera01
+    3300078: manguera02
+    3300080: manguera03
+    3300082: matafuego
+    3300084: matafuego01
+    3300086: matafuego03
+    3300088: mesa
+    3300090: mesa100
+    3300092: mesa101
+    3300094: mesa102
+    3300096: mesa103
+    3300098: mesa104
+    3300100: mesa105
+    3300102: mesa106
+    3300104: mesa107
+    3300106: mesa108
+    3300108: mesa109
+    3300110: mesa110
+    3300112: mesa111
+    3300114: mesa112
+    3300116: mesa113
+    3300118: mesa114
+    3300120: mesa115
+    3300122: mesa116
+    3300124: mesa117
+    3300126: mesa118
+    3300128: mesa119
+    3300130: mesa120
+    3300132: mesa121
+    3300134: mesa122
+    3300136: mesa123
+    3300138: mesa124
+    3300140: mesa125
+    3300142: mesa126
+    3300144: mesa127
+    3300146: mesa128
+    3300148: mesa129
+    3300150: mesa59
+    3300152: mesa60
+    3300154: mesa61
+    3300156: mesa62
+    3300158: mesa63
+    3300160: mesa64
+    3300162: mesa65
+    3300164: mesa66
+    3300166: mesa67
+    3300168: mesa68
+    3300170: mesa69
+    3300172: mesa70
+    3300174: mesa71
+    3300176: mesa72
+    3300178: mesa73
+    3300180: mesa74
+    3300182: mesa75
+    3300184: mesa76
+    3300186: mesa77
+    3300188: mesa78
+    3300190: mesa79
+    3300192: mesa80
+    3300194: mesa81
+    3300196: mesa82
+    3300198: mesa83
+    3300200: mesa84
+    3300202: mesa85
+    3300204: mesa86
+    3300206: mesa87
+    3300208: mesa88
+    3300210: mesa89
+    3300212: mesa90
+    3300214: mesa91
+    3300216: mesa92
+    3300218: mesa93
+    3300220: mesa94
+    3300222: mesa95
+    3300224: mesa96
+    3300226: mesa97
+    3300228: mesa98
+    3300230: mesa99
+    3300232: monitor100
+    3300234: monitor101
+    3300236: monitor102
+    3300238: monitor103
+    3300240: monitor104
+    3300242: monitor105
+    3300244: monitor106
+    3300246: monitor107
+    3300248: monitor108
+    3300250: monitor109
+    3300252: monitor110
+    3300254: monitor111
+    3300256: monitor112
+    3300258: monitor113
+    3300260: monitor114
+    3300262: monitor55
+    3300264: monitor61
+    3300266: monitor62
+    3300268: monitor63
+    3300270: monitor64
+    3300272: monitor65
+    3300274: monitor66
+    3300276: monitor67
+    3300278: monitor68
+    3300280: monitor69
+    3300282: monitor70
+    3300284: monitor71
+    3300286: monitor72
+    3300288: monitor73
+    3300290: monitor74
+    3300292: monitor75
+    3300294: monitor77
+    3300296: monitor78
+    3300298: monitor79
+    3300300: monitor80
+    3300302: monitor81
+    3300304: monitor82
+    3300306: monitor83
+    3300308: monitor84
+    3300310: monitor85
+    3300312: monitor86
+    3300314: monitor87
+    3300316: monitor88
+    3300318: monitor89
+    3300320: monitor90
+    3300322: monitor91
+    3300324: monitor92
+    3300326: monitor93
+    3300328: monitor94
+    3300330: monitor95
+    3300332: monitor96
+    3300334: monitor97
+    3300336: monitor98
+    3300338: monitor99
+    3300340: Object02
+    3300342: Object03
+    3300344: Object05
+    3300346: Object11
+    3300348: Object13
+    3300350: Object14
+    3300352: paredes
+    3300354: PC06
+    3300356: PC07
+    3300358: PC08
+    3300360: PC09
+    3300362: PC10
+    3300364: PC11
+    3300366: PC12
+    3300368: PC13
+    3300370: PC14
+    3300372: PC15
+    3300374: PC16
+    3300376: PC17
+    3300378: PC18
+    3300380: PC19
+    3300382: PC20
+    3300384: PC21
+    3300386: PC22
+    3300388: PC23
+    3300390: PC24
+    3300392: PC25
+    3300394: PC26
+    3300396: PC27
+    3300398: PC28
+    3300400: PC29
+    3300402: PC30
+    3300404: PC31
+    3300406: PC32
+    3300408: PC33
+    3300410: PC34
+    3300412: PC35
+    3300414: PC36
+    3300416: PC37
+    3300418: PC38
+    3300420: PC40
+    3300422: PC41
+    3300424: PC42
+    3300426: PC43
+    3300428: PC44
+    3300430: PC45
+    3300432: PC46
+    3300434: PC47
+    3300436: PC48
+    3300438: PC49
+    3300440: PC50
+    3300442: PC51
+    3300444: PC52
+    3300446: PC53
+    3300448: PC54
+    3300450: PC55
+    3300452: PC56
+    3300454: PC57
+    3300456: PC58
+    3300458: PC60
+    3300460: PC62
+    3300462: Piso
+    3300464: Plane01
+    3300466: Plane02
+    3300468: Plane03
+    3300470: Plane04
+    3300472: Plane05
+    3300474: Plane06
+    3300476: Plane07
+    3300478: Plane08
+    3300480: puerta L1L2
+    3300482: Puerta01
+    3300484: Puerta02
+    3300486: Puerta03
+    3300488: Puerta04
+    3300490: Puerta05
+    3300492: Puerta06
+    3300494: Puerta07
+    3300496: Puerta08
+    3300498: Puerta09
+    3300500: Puerta10
+    3300502: Puerta11
+    3300504: Puerta15
+    3300506: Puerta16
+    3300508: puertal1
+    3300510: rack L1
+    3300512: respaldo06
+    3300514: respaldo07
+    3300516: respaldo08
+    3300518: respaldo09
+    3300520: respaldo10
+    3300522: respaldo11
+    3300524: respaldo12
+    3300526: respaldo13
+    3300528: respaldo14
+    3300530: respaldo15
+    3300532: respaldo16
+    3300534: respaldo17
+    3300536: respaldo18
+    3300538: respaldo19
+    3300540: respaldo20
+    3300542: respaldo21
+    3300544: respaldo22
+    3300546: respaldo23
+    3300548: respaldo24
+    3300550: respaldo25
+    3300552: respaldo26
+    3300554: respaldo27
+    3300556: respaldo28
+    3300558: respaldo29
+    3300560: respaldo30
+    3300562: respaldo31
+    3300564: respaldo32
+    3300566: respaldo33
+    3300568: respaldo34
+    3300570: respaldo35
+    3300572: respaldo36
+    3300574: respaldo37
+    3300576: respaldo39
+    3300578: respaldo40
+    3300580: respaldo41
+    3300582: respaldo42
+    3300584: respaldo43
+    3300586: respaldo44
+    3300588: respaldo45
+    3300590: respaldo46
+    3300592: respaldo47
+    3300594: respaldo48
+    3300596: respaldo49
+    3300598: respaldo50
+    3300600: respaldo51
+    3300602: respaldo52
+    3300604: respaldo53
+    3300606: respaldo54
+    3300608: respaldo55
+    3300610: respaldo56
+    3300612: respaldo57
+    3300614: respaldo58
+    3300616: respaldo59
+    3300618: respaldo60
+    3300620: respaldo61
+    3300622: respaldo62
+    3300624: respaldo63
+    3300626: "silla ca\xF1o"
+    3300628: "silla ca\xF1o01"
+    3300630: "silla ca\xF1o02"
+    3300632: "silla ca\xF1o03"
+    3300634: "silla ca\xF1o04"
+    3300636: "silla ca\xF1o05"
+    3300638: "silla ca\xF1o06"
+    3300640: "silla ca\xF1o07"
+    3300642: "silla ca\xF1o08"
+    3300644: "silla ca\xF1o09"
+    3300646: "silla ca\xF1o10"
+    3300648: "silla ca\xF1o11"
+    3300650: "silla ca\xF1o12"
+    3300652: "silla ca\xF1o13"
+    3300654: "silla ca\xF1o14"
+    3300656: "silla ca\xF1o15"
+    3300658: "silla ca\xF1o16"
+    3300660: "silla ca\xF1o17"
+    3300662: "silla ca\xF1o18"
+    3300664: "silla ca\xF1o19"
+    3300666: "silla ca\xF1o20"
+    3300668: "silla ca\xF1o21"
+    3300670: "silla ca\xF1o22"
+    3300672: "silla ca\xF1o23"
+    3300674: "silla ca\xF1o24"
+    3300676: SILLALAB
+    3300678: TECHO
+    3300680: TECLADO06
+    3300682: TECLADO07
+    3300684: TECLADO08
+    3300686: TECLADO09
+    3300688: TECLADO10
+    3300690: TECLADO11
+    3300692: TECLADO12
+    3300694: TECLADO13
+    3300696: TECLADO14
+    3300698: TECLADO15
+    3300700: TECLADO16
+    3300702: TECLADO17
+    3300704: TECLADO18
+    3300706: TECLADO19
+    3300708: TECLADO20
+    3300710: TECLADO21
+    3300712: TECLADO22
+    3300714: TECLADO23
+    3300716: TECLADO24
+    3300718: TECLADO25
+    3300720: TECLADO26
+    3300722: TECLADO27
+    3300724: TECLADO28
+    3300726: TECLADO29
+    3300728: TECLADO30
+    3300730: TECLADO31
+    3300732: TECLADO32
+    3300734: TECLADO33
+    3300736: TECLADO34
+    3300738: TECLADO35
+    3300740: TECLADO36
+    3300742: TECLADO37
+    3300744: TECLADO38
+    3300746: TECLADO40
+    3300748: TECLADO41
+    3300750: TECLADO42
+    3300752: TECLADO43
+    3300754: TECLADO44
+    3300756: TECLADO45
+    3300758: TECLADO46
+    3300760: TECLADO47
+    3300762: TECLADO48
+    3300764: TECLADO49
+    3300766: TECLADO50
+    3300768: TECLADO51
+    3300770: TECLADO52
+    3300772: TECLADO53
+    3300774: TECLADO54
+    3300776: TECLADO55
+    3300778: TECLADO57
+    3300780: TECLADO59
+    3300782: TECLADO60
+    3300784: TECLADO61
+    3300786: TECLADO62
+    3300788: Asistencia 2do
+    3300790: cartel fumar
+    3300792: Cartelera01
+    3300794: L1 matrix
+    3300796: l1 piso
+    3300798: L2 Piso
+    3300800: L2 Ventanas
+    3300802: pared aula puerta
+    3300804: Pas Logo tic
+    3300806: 'pas tecnologia de '
+    3300808: pas y comunicacion
+    3300810: PISO PASILLO
+    3300812: Piso Pasillo
+    3300814: puertaa
+    3300816: ventana l2
+    3300818: ventanas L1
+    3300820: ventanas L3
+    3300822: Labos Piso
+    3300824: Labos Pisozz
+    3300826: cristales ventana L3
+    3300828: nueva puerta ventana L3
+    4300000: Piso
+    4300002: cartel2
+    4300004: cartel3
+    4300006: cartel1
+    4300008: cartel04
+    4300010: cartel05
+    4300012: Plane02
+    4300014: "aula (pizarr\xF3n)"
+    4300016: aula(piso)
+    4300018: matafuego
+    4300020: manguera
+    4300022: Puerta01
+    4300024: Puerta02
+    4300026: Puerta03
+    4300028: Puerta04
+    4300030: Puerta05
+    4300032: manguera01
+    4300034: manguera02
+    4300036: matafuego01
+    4300038: manguera03
+    4300040: matafuego03
+    4300042: CANIOMATAFUEGO
+    4300044: Puerta06
+    4300046: Puerta07
+    4300048: Puerta08
+    4300050: Puerta09
+    4300052: Puerta10
+    4300054: banco
+    4300056: banco01
+    4300058: Plane06
+    4300060: TECHO
+    4300062: paredes
+    4300064: madera puerta vidrio r
+    4300066: madera puerta vidrio l
+    4300068: Puerta11
+    4300070: Puerta15
+    4300072: Object02
+    4300074: Puerta16
+    4300076: mesa
+    4300078: PC06
+    4300080: TECLADO06
+    4300082: TECLADO07
+    4300084: TECLADO08
+    4300086: PC07
+    4300088: PC08
+    4300090: respaldo06
+    4300092: respaldo07
+    4300094: respaldo08
+    4300096: PC09
+    4300098: TECLADO09
+    4300100: TECLADO10
+    4300102: TECLADO11
+    4300104: PC10
+    4300106: PC11
+    4300108: respaldo09
+    4300110: respaldo10
+    4300112: respaldo11
+    4300114: PC12
+    4300116: TECLADO12
+    4300118: TECLADO13
+    4300120: PC13
+    4300122: respaldo12
+    4300124: respaldo13
+    4300126: PC14
+    4300128: TECLADO14
+    4300130: TECLADO15
+    4300132: TECLADO16
+    4300134: PC15
+    4300136: PC16
+    4300138: respaldo14
+    4300140: respaldo15
+    4300142: respaldo16
+    4300144: TECLADO17
+    4300146: PC17
+    4300148: TECLADO18
+    4300150: TECLADO19
+    4300152: PC18
+    4300154: respaldo17
+    4300156: PC19
+    4300158: respaldo18
+    4300160: respaldo19
+    4300162: TECLADO20
+    4300164: PC20
+    4300166: PC21
+    4300168: TECLADO21
+    4300170: respaldo20
+    4300172: respaldo21
+    4300174: TECLADO22
+    4300176: PC22
+    4300178: PC23
+    4300180: TECLADO23
+    4300182: respaldo22
+    4300184: respaldo23
+    4300186: l3(piso+objetos)
+    4300188: TECLADO24
+    4300190: PC24
+    4300192: SILLALAB
+    4300194: l2(techo)
+    4300196: l2(piso+objetos)
+    4300198: TECLADO40
+    4300200: PC40
+    4300202: respaldo39
+    4300204: PC29
+    4300206: TECLADO29
+    4300208: TECLADO30
+    4300210: PC30
+    4300212: respaldo28
+    4300214: respaldo29
+    4300216: PC41
+    4300218: respaldo40
+    4300220: PC42
+    4300222: respaldo41
+    4300224: PC43
+    4300226: respaldo42
+    4300228: Plane01
+    4300230: Object05
+    4300232: l1(piso+objetos)
+    4300234: respaldo43
+    4300236: PC44
+    4300238: TECLADO41
+    4300240: TECLADO42
+    4300242: PC45
+    4300244: respaldo44
+    4300246: TECLADO51
+    4300248: PC54
+    4300250: respaldo53
+    4300252: TECLADO52
+    4300254: PC55
+    4300256: monitor55
+    4300258: respaldo54
+    4300260: TECLADO53
+    4300262: PC56
+    4300264: respaldo55
+    4300266: TECLADO54
+    4300268: PC57
+    4300270: respaldo56
+    4300272: TECLADO55
+    4300274: PC58
+    4300276: respaldo57
+    4300278: respaldo58
+    4300280: TECLADO57
+    4300282: PC60
+    4300284: respaldo59
+    4300286: Object13
+    4300288: Object14
+    4300290: Plane03
+    4300292: Plane04
+    4300294: Plane07
+    4300296: respaldo49
+    4300298: PC50
+    4300300: TECLADO47
+    4300302: TECLADO48
+    4300304: PC51
+    4300306: respaldo50
+    4300308: respaldo51
+    4300310: PC52
+    4300312: TECLADO49
+    4300314: TECLADO50
+    4300316: PC53
+    4300318: respaldo52
+    4300320: respaldo47
+    4300322: PC48
+    4300324: TECLADO45
+    4300326: TECLADO46
+    4300328: PC49
+    4300330: respaldo48
+    4300332: respaldo45
+    4300334: PC46
+    4300336: TECLADO43
+    4300338: TECLADO44
+    4300340: PC47
+    4300342: respaldo46
+    4300344: l1(techo)
+    4300346: puertal1
+    4300348: PC25
+    4300350: TECLADO25
+    4300352: TECLADO26
+    4300354: PC26
+    4300356: respaldo24
+    4300358: respaldo25
+    4300360: PC27
+    4300362: TECLADO27
+    4300364: TECLADO28
+    4300366: PC28
+    4300368: respaldo26
+    4300370: respaldo27
+    4300372: PC31
+    4300374: TECLADO31
+    4300376: TECLADO32
+    4300378: PC32
+    4300380: respaldo30
+    4300382: respaldo31
+    4300384: PC33
+    4300386: TECLADO33
+    4300388: TECLADO34
+    4300390: PC34
+    4300392: respaldo32
+    4300394: respaldo33
+    4300396: PC35
+    4300398: TECLADO35
+    4300400: TECLADO36
+    4300402: PC36
+    4300404: respaldo34
+    4300406: respaldo35
+    4300408: PC37
+    4300410: TECLADO37
+    4300412: TECLADO38
+    4300414: PC38
+    4300416: respaldo36
+    4300418: respaldo37
+    4300420: Object11
+    4300422: aula(exterior)
+    4300424: aula(ventanas)
+    4300426: aula(mapa)
+    4300428: aula(cartelera)
+    4300430: l3(paredes)
+    4300432: l2(paredes)
+    4300434: l1(paredes)
+    4300436: loker
+    4300438: aula(paredes)
+    4300440: aula(techo)
+    4300442: l3(techo)
+    4300444: banco02
+    4300446: banco03
+    4300448: rack L1
+    4300450: puerta L1L2
+    4300452: corrediza
+    4300454: columnita
+    4300456: columnita01
+    4300458: columnita02
+    4300460: Plane05
+    4300462: "silla ca\xF1o"
+    4300464: mesa59
+    4300466: monitor61
+    4300468: mesa60
+    4300470: monitor62
+    4300472: mesa61
+    4300474: monitor63
+    4300476: mesa62
+    4300478: monitor64
+    4300480: mesa63
+    4300482: monitor65
+    4300484: mesa64
+    4300486: monitor66
+    4300488: mesa65
+    4300490: monitor67
+    4300492: mesa66
+    4300494: monitor68
+    4300496: mesa67
+    4300498: monitor69
+    4300500: mesa68
+    4300502: monitor70
+    4300504: mesa69
+    4300506: monitor71
+    4300508: mesa70
+    4300510: monitor72
+    4300512: mesa71
+    4300514: monitor73
+    4300516: mesa72
+    4300518: monitor74
+    4300520: mesa73
+    4300522: monitor75
+    4300524: mesa74
+    4300526: mesa75
+    4300528: TECLADO59
+    4300530: monitor77
+    4300532: PC62
+    4300534: mesa76
+    4300536: mesa77
+    4300538: mesa78
+    4300540: mesa79
+    4300542: mesa80
+    4300544: respaldo60
+    4300546: respaldo61
+    4300548: respaldo62
+    4300550: respaldo63
+    4300552: mesa81
+    4300554: monitor78
+    4300556: mesa82
+    4300558: monitor79
+    4300560: mesa83
+    4300562: monitor80
+    4300564: mesa84
+    4300566: mesa85
+    4300568: mesa86
+    4300570: monitor81
+    4300572: monitor82
+    4300574: monitor83
+    4300576: mesa87
+    4300578: mesa88
+    4300580: mesa89
+    4300582: monitor84
+    4300584: monitor85
+    4300586: monitor86
+    4300588: TECLADO60
+    4300590: TECLADO61
+    4300592: TECLADO62
+    4300594: mesa90
+    4300596: monitor87
+    4300598: mesa91
+    4300600: monitor88
+    4300602: mesa92
+    4300604: monitor89
+    4300606: monitor90
+    4300608: mesa93
+    4300610: monitor91
+    4300612: mesa94
+    4300614: monitor92
+    4300616: mesa95
+    4300618: monitor93
+    4300620: mesa96
+    4300622: monitor94
+    4300624: mesa97
+    4300626: monitor95
+    4300628: mesa98
+    4300630: mesa99
+    4300632: monitor96
+    4300634: monitor97
+    4300636: mesa100
+    4300638: monitor98
+    4300640: mesa101
+    4300642: monitor99
+    4300644: mesa102
+    4300646: monitor100
+    4300648: mesa103
+    4300650: monitor101
+    4300652: mesa104
+    4300654: monitor102
+    4300656: mesa105
+    4300658: mesa106
+    4300660: monitor103
+    4300662: mesa107
+    4300664: monitor104
+    4300666: mesa108
+    4300668: monitor105
+    4300670: mesa109
+    4300672: monitor106
+    4300674: mesa110
+    4300676: monitor107
+    4300678: mesa111
+    4300680: monitor108
+    4300682: mesa112
+    4300684: monitor109
+    4300686: mesa113
+    4300688: mesa114
+    4300690: monitor110
+    4300692: monitor111
+    4300694: mesa115
+    4300696: mesa116
+    4300698: mesa117
+    4300700: monitor112
+    4300702: monitor113
+    4300704: monitor114
+    4300706: mesa118
+    4300708: "silla ca\xF1o01"
+    4300710: "silla ca\xF1o02"
+    4300712: mesa119
+    4300714: "silla ca\xF1o03"
+    4300716: "silla ca\xF1o04"
+    4300718: mesa120
+    4300720: "silla ca\xF1o05"
+    4300722: "silla ca\xF1o06"
+    4300724: mesa121
+    4300726: "silla ca\xF1o07"
+    4300728: "silla ca\xF1o08"
+    4300730: "silla ca\xF1o09"
+    4300732: "silla ca\xF1o10"
+    4300734: mesa122
+    4300736: mesa123
+    4300738: "silla ca\xF1o11"
+    4300740: "silla ca\xF1o12"
+    4300742: mesa124
+    4300744: "silla ca\xF1o13"
+    4300746: "silla ca\xF1o14"
+    4300748: mesa125
+    4300750: "silla ca\xF1o15"
+    4300752: "silla ca\xF1o16"
+    4300754: "silla ca\xF1o17"
+    4300756: "silla ca\xF1o18"
+    4300758: mesa126
+    4300760: mesa127
+    4300762: "silla ca\xF1o19"
+    4300764: "silla ca\xF1o20"
+    4300766: mesa128
+    4300768: "silla ca\xF1o21"
+    4300770: "silla ca\xF1o22"
+    4300772: mesa129
+    4300774: "silla ca\xF1o23"
+    4300776: "silla ca\xF1o24"
+    4300778: Plane08
+    4300780: L1 pared pasdillo
+    4300782: l2(columna)
+    4300784: l3(columna)
+    4300786: Object03
+    4300788: Piso Pasillo
+    4300790: cartel fumar
+    4300792: puertaa
+    4300794: L2 Piso
+    4300796: ventana l2
+    4300798: l1 piso
+    4300800: Pas Logo tic
+    4300802: 'pas tecnologia de '
+    4300804: pas y comunicacion
+    4300806: Asistencia 2do
+    4300808: L1 matrix
+    4300810: Cartelera01
+    4300812: L2 Ventanas
+    4300814: pared aula puerta
+    4300816: PISO PASILLO
+    4300818: ventanas L1
+    4300820: ventanas L3
+    4300822: Labos Piso
+    4300824: Labos Pisozz
+    4300826: nueva puerta ventana L3
+    4300828: cristales ventana L3
+    6400000: "aula (pizarr\xF3n)"
+    6400002: aula(cartelera)
+    6400004: aula(exterior)
+    6400006: aula(mapa)
+    6400008: aula(paredes)
+    6400010: aula(piso)
+    6400012: aula(techo)
+    6400014: aula(ventanas)
+    6400016: banco
+    6400018: banco01
+    6400020: banco02
+    6400022: banco03
+    6400024: CANIOMATAFUEGO
+    6400026: cartel04
+    6400028: cartel05
+    6400030: cartel1
+    6400032: cartel2
+    6400034: cartel3
+    6400036: columnita
+    6400038: columnita01
+    6400040: columnita02
+    6400042: corrediza
+    6400044: L1 pared pasdillo
+    6400046: l1(paredes)
+    6400048: l1(piso+objetos)
+    6400050: l1(techo)
+    6400052: l2(columna)
+    6400054: l2(paredes)
+    6400056: l2(piso+objetos)
+    6400058: l2(techo)
+    6400060: l3(columna)
+    6400062: l3(paredes)
+    6400064: l3(piso+objetos)
+    6400066: l3(techo)
+    6400068: loker
+    6400070: madera puerta vidrio l
+    6400072: madera puerta vidrio r
+    6400074: manguera
+    6400076: manguera01
+    6400078: manguera02
+    6400080: manguera03
+    6400082: matafuego
+    6400084: matafuego01
+    6400086: matafuego03
+    6400088: mesa
+    6400090: mesa100
+    6400092: mesa101
+    6400094: mesa102
+    6400096: mesa103
+    6400098: mesa104
+    6400100: mesa105
+    6400102: mesa106
+    6400104: mesa107
+    6400106: mesa108
+    6400108: mesa109
+    6400110: mesa110
+    6400112: mesa111
+    6400114: mesa112
+    6400116: mesa113
+    6400118: mesa114
+    6400120: mesa115
+    6400122: mesa116
+    6400124: mesa117
+    6400126: mesa118
+    6400128: mesa119
+    6400130: mesa120
+    6400132: mesa121
+    6400134: mesa122
+    6400136: mesa123
+    6400138: mesa124
+    6400140: mesa125
+    6400142: mesa126
+    6400144: mesa127
+    6400146: mesa128
+    6400148: mesa129
+    6400150: mesa59
+    6400152: mesa60
+    6400154: mesa61
+    6400156: mesa62
+    6400158: mesa63
+    6400160: mesa64
+    6400162: mesa65
+    6400164: mesa66
+    6400166: mesa67
+    6400168: mesa68
+    6400170: mesa69
+    6400172: mesa70
+    6400174: mesa71
+    6400176: mesa72
+    6400178: mesa73
+    6400180: mesa74
+    6400182: mesa75
+    6400184: mesa76
+    6400186: mesa77
+    6400188: mesa78
+    6400190: mesa79
+    6400192: mesa80
+    6400194: mesa81
+    6400196: mesa82
+    6400198: mesa83
+    6400200: mesa84
+    6400202: mesa85
+    6400204: mesa86
+    6400206: mesa87
+    6400208: mesa88
+    6400210: mesa89
+    6400212: mesa90
+    6400214: mesa91
+    6400216: mesa92
+    6400218: mesa93
+    6400220: mesa94
+    6400222: mesa95
+    6400224: mesa96
+    6400226: mesa97
+    6400228: mesa98
+    6400230: mesa99
+    6400232: monitor100
+    6400234: monitor101
+    6400236: monitor102
+    6400238: monitor103
+    6400240: monitor104
+    6400242: monitor105
+    6400244: monitor106
+    6400246: monitor107
+    6400248: monitor108
+    6400250: monitor109
+    6400252: monitor110
+    6400254: monitor111
+    6400256: monitor112
+    6400258: monitor113
+    6400260: monitor114
+    6400262: monitor55
+    6400264: monitor61
+    6400266: monitor62
+    6400268: monitor63
+    6400270: monitor64
+    6400272: monitor65
+    6400274: monitor66
+    6400276: monitor67
+    6400278: monitor68
+    6400280: monitor69
+    6400282: monitor70
+    6400284: monitor71
+    6400286: monitor72
+    6400288: monitor73
+    6400290: monitor74
+    6400292: monitor75
+    6400294: monitor77
+    6400296: monitor78
+    6400298: monitor79
+    6400300: monitor80
+    6400302: monitor81
+    6400304: monitor82
+    6400306: monitor83
+    6400308: monitor84
+    6400310: monitor85
+    6400312: monitor86
+    6400314: monitor87
+    6400316: monitor88
+    6400318: monitor89
+    6400320: monitor90
+    6400322: monitor91
+    6400324: monitor92
+    6400326: monitor93
+    6400328: monitor94
+    6400330: monitor95
+    6400332: monitor96
+    6400334: monitor97
+    6400336: monitor98
+    6400338: monitor99
+    6400340: Object02
+    6400342: Object03
+    6400344: Object05
+    6400346: Object11
+    6400348: Object13
+    6400350: Object14
+    6400352: paredes
+    6400354: PC06
+    6400356: PC07
+    6400358: PC08
+    6400360: PC09
+    6400362: PC10
+    6400364: PC11
+    6400366: PC12
+    6400368: PC13
+    6400370: PC14
+    6400372: PC15
+    6400374: PC16
+    6400376: PC17
+    6400378: PC18
+    6400380: PC19
+    6400382: PC20
+    6400384: PC21
+    6400386: PC22
+    6400388: PC23
+    6400390: PC24
+    6400392: PC25
+    6400394: PC26
+    6400396: PC27
+    6400398: PC28
+    6400400: PC29
+    6400402: PC30
+    6400404: PC31
+    6400406: PC32
+    6400408: PC33
+    6400410: PC34
+    6400412: PC35
+    6400414: PC36
+    6400416: PC37
+    6400418: PC38
+    6400420: PC40
+    6400422: PC41
+    6400424: PC42
+    6400426: PC43
+    6400428: PC44
+    6400430: PC45
+    6400432: PC46
+    6400434: PC47
+    6400436: PC48
+    6400438: PC49
+    6400440: PC50
+    6400442: PC51
+    6400444: PC52
+    6400446: PC53
+    6400448: PC54
+    6400450: PC55
+    6400452: PC56
+    6400454: PC57
+    6400456: PC58
+    6400458: PC60
+    6400460: PC62
+    6400462: Piso
+    6400464: Plane01
+    6400466: Plane02
+    6400468: Plane03
+    6400470: Plane04
+    6400472: Plane05
+    6400474: Plane06
+    6400476: Plane07
+    6400478: Plane08
+    6400480: puerta L1L2
+    6400482: Puerta01
+    6400484: Puerta02
+    6400486: Puerta03
+    6400488: Puerta04
+    6400490: Puerta05
+    6400492: Puerta06
+    6400494: Puerta07
+    6400496: Puerta08
+    6400498: Puerta09
+    6400500: Puerta10
+    6400502: Puerta11
+    6400504: Puerta15
+    6400506: Puerta16
+    6400508: puertal1
+    6400510: rack L1
+    6400512: respaldo06
+    6400514: respaldo07
+    6400516: respaldo08
+    6400518: respaldo09
+    6400520: respaldo10
+    6400522: respaldo11
+    6400524: respaldo12
+    6400526: respaldo13
+    6400528: respaldo14
+    6400530: respaldo15
+    6400532: respaldo16
+    6400534: respaldo17
+    6400536: respaldo18
+    6400538: respaldo19
+    6400540: respaldo20
+    6400542: respaldo21
+    6400544: respaldo22
+    6400546: respaldo23
+    6400548: respaldo24
+    6400550: respaldo25
+    6400552: respaldo26
+    6400554: respaldo27
+    6400556: respaldo28
+    6400558: respaldo29
+    6400560: respaldo30
+    6400562: respaldo31
+    6400564: respaldo32
+    6400566: respaldo33
+    6400568: respaldo34
+    6400570: respaldo35
+    6400572: respaldo36
+    6400574: respaldo37
+    6400576: respaldo39
+    6400578: respaldo40
+    6400580: respaldo41
+    6400582: respaldo42
+    6400584: respaldo43
+    6400586: respaldo44
+    6400588: respaldo45
+    6400590: respaldo46
+    6400592: respaldo47
+    6400594: respaldo48
+    6400596: respaldo49
+    6400598: respaldo50
+    6400600: respaldo51
+    6400602: respaldo52
+    6400604: respaldo53
+    6400606: respaldo54
+    6400608: respaldo55
+    6400610: respaldo56
+    6400612: respaldo57
+    6400614: respaldo58
+    6400616: respaldo59
+    6400618: respaldo60
+    6400620: respaldo61
+    6400622: respaldo62
+    6400624: respaldo63
+    6400626: "silla ca\xF1o"
+    6400628: "silla ca\xF1o01"
+    6400630: "silla ca\xF1o02"
+    6400632: "silla ca\xF1o03"
+    6400634: "silla ca\xF1o04"
+    6400636: "silla ca\xF1o05"
+    6400638: "silla ca\xF1o06"
+    6400640: "silla ca\xF1o07"
+    6400642: "silla ca\xF1o08"
+    6400644: "silla ca\xF1o09"
+    6400646: "silla ca\xF1o10"
+    6400648: "silla ca\xF1o11"
+    6400650: "silla ca\xF1o12"
+    6400652: "silla ca\xF1o13"
+    6400654: "silla ca\xF1o14"
+    6400656: "silla ca\xF1o15"
+    6400658: "silla ca\xF1o16"
+    6400660: "silla ca\xF1o17"
+    6400662: "silla ca\xF1o18"
+    6400664: "silla ca\xF1o19"
+    6400666: "silla ca\xF1o20"
+    6400668: "silla ca\xF1o21"
+    6400670: "silla ca\xF1o22"
+    6400672: "silla ca\xF1o23"
+    6400674: "silla ca\xF1o24"
+    6400676: SILLALAB
+    6400678: TECHO
+    6400680: TECLADO06
+    6400682: TECLADO07
+    6400684: TECLADO08
+    6400686: TECLADO09
+    6400688: TECLADO10
+    6400690: TECLADO11
+    6400692: TECLADO12
+    6400694: TECLADO13
+    6400696: TECLADO14
+    6400698: TECLADO15
+    6400700: TECLADO16
+    6400702: TECLADO17
+    6400704: TECLADO18
+    6400706: TECLADO19
+    6400708: TECLADO20
+    6400710: TECLADO21
+    6400712: TECLADO22
+    6400714: TECLADO23
+    6400716: TECLADO24
+    6400718: TECLADO25
+    6400720: TECLADO26
+    6400722: TECLADO27
+    6400724: TECLADO28
+    6400726: TECLADO29
+    6400728: TECLADO30
+    6400730: TECLADO31
+    6400732: TECLADO32
+    6400734: TECLADO33
+    6400736: TECLADO34
+    6400738: TECLADO35
+    6400740: TECLADO36
+    6400742: TECLADO37
+    6400744: TECLADO38
+    6400746: TECLADO40
+    6400748: TECLADO41
+    6400750: TECLADO42
+    6400752: TECLADO43
+    6400754: TECLADO44
+    6400756: TECLADO45
+    6400758: TECLADO46
+    6400760: TECLADO47
+    6400762: TECLADO48
+    6400764: TECLADO49
+    6400766: TECLADO50
+    6400768: TECLADO51
+    6400770: TECLADO52
+    6400772: TECLADO53
+    6400774: TECLADO54
+    6400776: TECLADO55
+    6400778: TECLADO57
+    6400780: TECLADO59
+    6400782: TECLADO60
+    6400784: TECLADO61
+    6400786: TECLADO62
+    6400788: Asistencia 2do
+    6400790: cartel fumar
+    6400792: Cartelera01
+    6400794: L1 matrix
+    6400796: l1 piso
+    6400798: L2 Piso
+    6400800: L2 Ventanas
+    6400802: pared aula puerta
+    6400804: Pas Logo tic
+    6400806: 'pas tecnologia de '
+    6400808: pas y comunicacion
+    6400810: PISO PASILLO
+    6400812: Piso Pasillo
+    6400814: puertaa
+    6400816: ventana l2
+    6400818: ventanas L1
+    6400820: ventanas L3
+    6400822: Labos Piso
+    6400824: Labos Pisozz
+    6400826: cristales ventana L3
+    6400828: nueva puerta ventana L3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
