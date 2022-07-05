@@ -3502,11 +3502,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ad2abebc39dea64ea6e816c56408ee4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 50
   rb: {fileID: 0}
   visorTR: {fileID: 1213522176}
   visorY: 0
   offsetAngle: 1
+  rotationSpeed: 3
+  rotateByTracking: 0
 --- !u!65 &427947533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5355,6 +5357,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 144244, guid: 368d75d64eb6f224a98d8c955f4a68fe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 157532, guid: 368d75d64eb6f224a98d8c955f4a68fe, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -7406,8 +7412,8 @@ MonoBehaviour:
   m_Camera: {fileID: 1213522178}
   m_OriginBaseGameObject: {fileID: 1053998766}
   m_CameraFloorOffsetObject: {fileID: 2036738423}
-  m_RequestedTrackingOriginMode: 2
-  m_CameraYOffset: 1.1176
+  m_RequestedTrackingOriginMode: 1
+  m_CameraYOffset: 0.1
 --- !u!4 &1053998768
 Transform:
   m_ObjectHideFlags: 0
@@ -7415,7 +7421,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053998766}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.00000058114523}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.59, z: -0.028}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
