@@ -17,11 +17,21 @@ public class ContinuosMovement : MonoBehaviour
     private Vector2 inputAxis;
     private CharacterController character;
 
+<<<<<<< Updated upstream
+=======
+    public bool useVRController = false;
+    public float movementSpeed = 2f;
+
+    public Transform cameraOffset;
+    public Vector3 cameraPositionOffset;
+
+>>>>>>> Stashed changes
     // Start is called before the first frame update
     void Start()
     {
         character = GetComponent<CharacterController>();
         rig = GetComponent<XRRig>();
+        cameraOffset.position += cameraPositionOffset;
     }
 
     // Update is called once per frame
@@ -51,11 +61,20 @@ public class ContinuosMovement : MonoBehaviour
             fallingSpeed += gravity * Time.fixedDeltaTime;
         }
         character.Move(Vector3.up * fallingSpeed * Time.fixedDeltaTime);
+<<<<<<< Updated upstream
+=======
+
+        //rig.Camera.transform.position = new Vector3(rig.Camera.transform.position.x, height, rig.Camera.transform.position.z);
+>>>>>>> Stashed changes
     }
 
     void CapsuleFollowHeadSet()
     {
+<<<<<<< Updated upstream
         character.height = rig.cameraInRigSpaceHeight + additionalHeight;
+=======
+        //character.height = rig.cameraInRigSpaceHeight - additionalHeight;
+>>>>>>> Stashed changes
         Vector3 capsuleCenter = transform.InverseTransformPoint(rig.cameraGameObject.transform.position);
         character.center = new Vector3(capsuleCenter.x, character.height / 2 + character.skinWidth, capsuleCenter.z);
     }
