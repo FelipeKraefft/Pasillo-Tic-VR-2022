@@ -23,11 +23,16 @@ public class ContinuosMovement : MonoBehaviour
     public bool useVRController = false;
     public float movementSpeed = 2f;
 
+    public Transform cameraOffsetTR;
+    public Vector3 cameraOffsetValue;
+    public float rotationSpeed = .3f;
+
     // Start is called before the first frame update
     void Start()
     {
         character = GetComponent<CharacterController>();
         rig = GetComponent<XRRig>();
+        Invoke("FixCameraOffset",0.1f);
     }
 
     // Update is called once per frame
@@ -43,6 +48,13 @@ public class ContinuosMovement : MonoBehaviour
             inputAxis = new Vector2(Input.GetAxis("Horizontal")*movementSpeed,Input.GetAxis("Vertical")*movementSpeed);
             inputAxisRotation = new Vector2(Input.GetAxis("rightXboxHorizontal") * movementSpeed, 0);
         }
+
+
+    }
+
+    void FixCameraOffset()
+    {
+        cameraOffsetTR.position = cameraOffsetValue;
     }
 
     private void FixedUpdate()
@@ -55,7 +67,7 @@ public class ContinuosMovement : MonoBehaviour
         Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y);
 
         character.Move(direction * Time.fixedDeltaTime * speed);
-        rig.transform.Rotate(0, inputAxisRotation.x, 0);
+        rig.transform.Rotate(0, inputAxisRotation.x * rotationSpeed, 0);
 
         //Gravity
         if (isGrounded)
