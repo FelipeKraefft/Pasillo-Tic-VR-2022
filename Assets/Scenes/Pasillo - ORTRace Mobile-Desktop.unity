@@ -7532,6 +7532,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   additionalHeight: 0.2
+  useVRController: 0
 --- !u!4 &1053998768
 Transform:
   m_ObjectHideFlags: 0
@@ -41891,6 +41892,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945189809699496443, guid: 038cd06c0ff02a24983c96a0c4f5210c,
+        type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5945189811238202046, guid: 038cd06c0ff02a24983c96a0c4f5210c,
         type: 3}

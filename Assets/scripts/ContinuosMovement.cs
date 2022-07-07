@@ -17,6 +17,8 @@ public class ContinuosMovement : MonoBehaviour
     private Vector2 inputAxis;
     private CharacterController character;
 
+    public bool useVRController = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +29,16 @@ public class ContinuosMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        InputDevice device = InputDevices.GetDeviceAtXRNode(inputSource);
-        device.TryGetFeatureValue(CommonUsages.primary2DAxis, out inputAxis);
+        if (useVRController)
+        {
+            InputDevice device = InputDevices.GetDeviceAtXRNode(inputSource);
+            device.TryGetFeatureValue(CommonUsages.primary2DAxis, out inputAxis);
+        }
+        else
+        {
+            inputAxis = new Vector2(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"));
+        }
+        
     }
 
     private void FixedUpdate()
