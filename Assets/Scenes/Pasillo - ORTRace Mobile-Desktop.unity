@@ -7533,6 +7533,7 @@ MonoBehaviour:
     m_Bits: 0
   additionalHeight: 0.2
   useVRController: 0
+  movementSpeed: 0
 --- !u!4 &1053998768
 Transform:
   m_ObjectHideFlags: 0
@@ -10695,7 +10696,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1578235808
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41833,6 +41834,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5945189809699496423, guid: 038cd06c0ff02a24983c96a0c4f5210c,
+        type: 3}
+      propertyPath: movementSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5945189809699496440, guid: 038cd06c0ff02a24983c96a0c4f5210c,
         type: 3}
       propertyPath: m_Name
