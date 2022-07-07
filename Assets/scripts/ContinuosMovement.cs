@@ -11,6 +11,8 @@ public class ContinuosMovement : MonoBehaviour
     public float gravity = -9.81f;
     public LayerMask groundLayer;
     public float additionalHeight = 0.2f;
+    public GameObject colision;
+    public CapsuleCollider Capsule;
 
     private float fallingSpeed;
     private XRRig rig;
@@ -39,7 +41,7 @@ public class ContinuosMovement : MonoBehaviour
         {
             inputAxis = new Vector2(Input.GetAxis("Horizontal")*movementSpeed,Input.GetAxis("Vertical")*movementSpeed);
         }
-       
+        rig.Camera.transform.position = new Vector3(0, rig.Camera.transform.position.y, 0);
     }
 
     private void FixedUpdate()
@@ -62,13 +64,15 @@ public class ContinuosMovement : MonoBehaviour
             fallingSpeed += gravity * Time.fixedDeltaTime;
         }
         character.Move(Vector3.up * fallingSpeed * Time.fixedDeltaTime);
+        CapsuleFollowHeadSet();
     }
 
     void CapsuleFollowHeadSet()
     {
-        character.height = rig.cameraInRigSpaceHeight + additionalHeight;
-        Vector3 capsuleCenter = transform.InverseTransformPoint(rig.cameraGameObject.transform.position);
+        character.height = 1.8f;
+        Vector3 capsuleCenter = colision.transform.position;
         character.center = new Vector3(capsuleCenter.x, character.height / 2 + character.skinWidth, capsuleCenter.z);
+        Capsule.center = new Vector3(capsuleCenter.x, character.height / 2 + character.skinWidth, capsuleCenter.z);
     }
 
     bool CheckIfGrounded()
