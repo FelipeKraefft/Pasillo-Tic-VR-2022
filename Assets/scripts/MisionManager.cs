@@ -17,7 +17,7 @@ public class MisionManager : MonoBehaviour
     public string textoMisionFallida;
     Text txtMision;
     public GameObject areaActivadora;
-    GameObject panelMision;
+    public GameObject panelMision;
     CanvasGroup controlesCG;
 
     public bool misionActiva = false;
@@ -51,7 +51,7 @@ public class MisionManager : MonoBehaviour
         Time.timeScale = 0f;
         AudioListener.pause = true;
     }
-    private void ContinueGame()
+    public void ContinueGame()
     {
         Time.timeScale = 1;
         panelMision.SetActive(false);
@@ -120,6 +120,7 @@ public class MisionManager : MonoBehaviour
     
     public void buttonAceptarMision()
     {
+        
         panelMision.SetActive(false);
         //emparche para saber si es versión mobile o no
         if (GM.mobile)

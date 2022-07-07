@@ -39,7 +39,7 @@ public class ContinuosMovement : MonoBehaviour
         {
             inputAxis = new Vector2(Input.GetAxis("Horizontal")*movementSpeed,Input.GetAxis("Vertical")*movementSpeed);
         }
-        
+       
     }
 
     private void FixedUpdate()
