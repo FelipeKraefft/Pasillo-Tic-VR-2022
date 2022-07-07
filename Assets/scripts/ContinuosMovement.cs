@@ -11,7 +11,6 @@ public class ContinuosMovement : MonoBehaviour
     public float gravity = -9.81f;
     public LayerMask groundLayer;
     public float additionalHeight = 0.2f;
-    public GameObject colision;
     public CapsuleCollider Capsule;
 
     private float fallingSpeed;
@@ -70,7 +69,7 @@ public class ContinuosMovement : MonoBehaviour
     void CapsuleFollowHeadSet()
     {
         character.height = 1.8f;
-        Vector3 capsuleCenter = colision.transform.position;
+        Vector3 capsuleCenter = rig.Camera.transform.position;
         character.center = new Vector3(capsuleCenter.x, character.height / 2 + character.skinWidth, capsuleCenter.z);
         Capsule.center = new Vector3(capsuleCenter.x, character.height / 2 + character.skinWidth, capsuleCenter.z);
     }
