@@ -18,6 +18,7 @@ public class ContinuosMovement : MonoBehaviour
     private CharacterController character;
 
     public bool useVRController = false;
+    public float movementSpeed = 1f;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +37,7 @@ public class ContinuosMovement : MonoBehaviour
         }
         else
         {
-            inputAxis = new Vector2(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"));
+            inputAxis = new Vector2(Input.GetAxis("Horizontal")*movementSpeed,Input.GetAxis("Vertical")*movementSpeed);
         }
         
     }
