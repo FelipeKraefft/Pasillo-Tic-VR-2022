@@ -7564,6 +7564,7 @@ MonoBehaviour:
     m_Bits: 0
   additionalHeight: 0.2
   Capsule: {fileID: 0}
+  height: 1.2
   useVRController: 0
   movementSpeed: 0
 --- !u!4 &1053998768
@@ -9871,9 +9872,9 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387090202}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 0.2
   m_Height: 1.8
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
@@ -41998,12 +41999,17 @@ PrefabInstance:
     - target: {fileID: 5945189809699496421, guid: 038cd06c0ff02a24983c96a0c4f5210c,
         type: 3}
       propertyPath: m_Height
-      value: 1.8
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 5945189809699496421, guid: 038cd06c0ff02a24983c96a0c4f5210c,
         type: 3}
       propertyPath: m_Radius
       value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945189809699496423, guid: 038cd06c0ff02a24983c96a0c4f5210c,
+        type: 3}
+      propertyPath: height
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5945189809699496423, guid: 038cd06c0ff02a24983c96a0c4f5210c,
         type: 3}
@@ -42104,6 +42110,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RequestedTrackingOriginMode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945189810256202766, guid: 038cd06c0ff02a24983c96a0c4f5210c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945189810327272798, guid: 038cd06c0ff02a24983c96a0c4f5210c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5945189811238202046, guid: 038cd06c0ff02a24983c96a0c4f5210c,
         type: 3}
